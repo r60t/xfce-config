@@ -55,7 +55,6 @@
       <property name="&lt;Alt&gt;F2" type="string" value="xfrun4">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="XF86Explorer" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="XF86Calculator" type="string" value="mate-calc"/>
       <property name="XF86HomePage" type="string" value="exo-open --launch WebBrowser"/>
@@ -71,6 +70,9 @@
       <property name="&lt;Super&gt;w" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;space" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;c" type="string" value="chromium-browser"/>
+      <property name="&lt;Super&gt;r" type="string" value="xfce4-terminal -e ranger"/>
+      <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
+      <property name="&lt;Super&gt;t" type="string" value="telegram-desktop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
