@@ -49,6 +49,7 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="thunar"/>
         <value type="string" value="task manager"/>
       </property>
     </property>
@@ -80,7 +81,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="firefox.instance1641;firefox.instance5928;parole"/>
+      <property name="mpris-players" type="string" value="chromium.instance12576;chromium.instance1620;chromium.instance8251;firefox.instance1591;firefox.instance1641;firefox.instance16683;firefox.instance1787;firefox.instance2563;firefox.instance4703;firefox.instance5928;firefox.instance6028;firefox.instance7036;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
