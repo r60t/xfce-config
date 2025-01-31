@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
@@ -54,11 +54,14 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
-        <value type="string" value="nm-applet"/>
+        <value type="string" value="pomatez1"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="qBittorrent"/>
         <value type="string" value="TelegramDesktop"/>
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="qbittorrent"/>
         <value type="string" value="wi-fi network connection “xxiii” active: xxiii (92%)"/>
         <value type="string" value="wi-fi network connection “xxiii” active: xxiii (94%)"/>
         <value type="string" value="wi-fi network connection “xxiii” active: xxiii (95%)"/>
@@ -71,6 +74,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="firefox.instance10393;firefox.instance12515;firefox.instance1766;firefox.instance1910;firefox.instance2698;firefox.instance3128;firefox.instance4283;firefox.instance8083;firefox.instance865"/>
+      <property name="known-players" type="string" value="Chromium;firefox"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -81,7 +85,22 @@
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce4-power-manager-settings.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+      </property>
+    </property>
     <property name="plugin-15" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16460601206.desktop"/>
